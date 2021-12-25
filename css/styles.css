@@ -2,16 +2,42 @@ body {
   background-color: #EAF6F6;
 }
 
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: grey;
-  border-width: 5px;
-  width: 5%;
-}
-
 h1,
 h2,
 h3 {
   color: #66BFBF;
+}
+
+hr {
+  border-color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+.circular:hover {
+  border-radius: 40%;
+}
+
+.profilePhoto {
+  background-color: black;
+  border-color: red;
+  border-style: inset;
+  padding: 10px;
+}
+
+.profilePhoto:hover {
+  background-color: red;
+  border-color: black;
+  border-style: inset;
+  padding: 10px;
+}
+
+#profileName {
+  color: blue;
 }
